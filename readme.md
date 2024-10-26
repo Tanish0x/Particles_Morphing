@@ -1,16 +1,26 @@
-# Three.js Journey
+# Three.js Particle Morphing
+
+This project demonstrates particle morphing using Three.js and custom shaders.
+
+## Features
+
+- Particle system based on loaded 3D models
+- Custom shaders for particle rendering and morphing
+- GUI controls for adjusting colors and triggering morphs
+- Responsive design
 
 ## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
 
-``` bash
-# Install dependencies (only the first time)
-npm install
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
 
-# Run the local server at localhost:8080
-npm run dev
+## Usage
 
-# Build for production in the dist/ directory
-npm run build
-```
+Use the GUI controls to change particle colors and trigger morphs between different shapes.
+
+## Technologies Used
+
+- Three.js
+- GSAP
+- lil-gui
